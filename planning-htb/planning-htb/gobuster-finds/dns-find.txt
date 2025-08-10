@@ -1,0 +1,17 @@
+┌──(pheonix㉿pheonix)-[~/Desktop/planning-htb]
+└─$ sudo gobuster vhost -u http://planning.htb/ -w /usr/share/seclists/SecLists/Discovery/DNS/combined_subdomains.txt --append-domain -t 50    
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://planning.htb/
+[+] Method:          GET
+[+] Threads:         50
+[+] Wordlist:        /usr/share/seclists/SecLists/Discovery/DNS/combined_subdomains.txt
+[+] User Agent:      gobuster/3.6
+[+] Timeout:         10s
+[+] Append Domain:   true
+===============================================================
+Starting gobuster in VHOST enumeration mode
+===============================================================
+Found: grafana.planning.htb Status: 302 [Size: 29] [--> /login]

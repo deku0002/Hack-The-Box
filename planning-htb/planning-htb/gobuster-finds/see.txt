@@ -1,0 +1,5 @@
+/css                  (Status: 301) [Size: 178] [--> http://planning.htb/css/]
+/img                  (Status: 301) [Size: 178] [--> http://planning.htb/img/]
+/index.php            (Status: 200) [Size: 23914]
+/js                   (Status: 301) [Size: 178] [--> http://planning.htb/js/]
+/lib                  (Status: 301) [Size: 178] [--> http://planning.htb/lib/]
